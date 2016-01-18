@@ -1,0 +1,172 @@
+#footerDiv{
+	text-align: right;
+	margin-right: 1%;
+	margin-left: 1%;
+	
+	width: 98%;
+	position:absolute;
+	bottom:0;
+	right: 0;	
+}
+#footerSpan{
+	color: red;	
+}
+#headerDiv{
+	margin-right: 2em;
+}
+#headerText{
+	float: left;
+	color: white;
+}
+#mandatoryField{
+	color: red;
+}
+
+#userNameTitle{
+	color: red;
+}
+#fileUpload{
+	float: left;
+}
+#carasoulText{
+	color:white;
+
+}
+#imageDiv{ 	
+    height: 100vh;     
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */    
+ }
+
+#categoryDiv{ 	
+    width: 100%;     
+    background-color: rgba(87,236,156,0.8);    
+ }
+ #categoryDiv2{
+   width: 100%;     
+    background-color: rgba(67,115,236,0.7);    
+ }
+
+#imageDiv3{ 	
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    background-color: rgba(0,160,120,0.2);
+ }
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+#pointers{
+ 	cursor: pointer;
+}
+
+#categoryTitleDiv{
+ 	font-size: 3em;
+ 	font-style: bold;
+ 	text-align: center;
+ 	font-family: cursive;
+ 	
+}
+
+#childCategories{
+	overflow: hidden;
+}
+
+
+#pup {
+  position:absolute;
+  z-index:200; /* aaaalways on top*/
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 250px;
+  border: 1px solid black;
+  background-color: #777;
+  color: white;
+  font-size: 0.95em;
+}
+
+#productFormDiv{
+	display: none;
+	width: 100%;     
+	float: left;
+    background-color: rgba(100,50,156,0.2); 
+}
+#productFooter{
+	padding: 1em;
+}
+
+.productImage{
+	height: 150px;	
+  	transition-property: height;
+  	transition-duration: 1s;
+  	transition-timing-function: linear;
+}
+
+.productImage:hover{
+	height: 250px;	
+	border: 5px solid white;
+}
+.productBody{
+	font-size: 1.2em;
+}
+
+#myCart{
+	background-color: rgba(217,236,87,0.2); 
+	display: none;
+	width: 100%;
+	height: 100vh;
+	float: left;
+}
+#cartFooter{
+	padding: 2%;
+}
+
+.eachCategory{
+	font-size: 1.3em;
+	width: 33%;
+	float: left;
+}
+
+.categoryTitle{
+	color: rgba(253,204,41,1);
+	font-size: 1.4em;
+}
+	
+#searchPanel{
+	background-color: rgba(100,50,156,0.2); 
+	display: none;
+	width: 100%;
+	height: 100vh;
+	float: left;
+}
+
+#noSearchText{
+	font-size: 1.6em;
+	color:red;
+	text-align:center;
+	
+}
+#subCategoryListedItems{
+	cursor: pointer;	
+}
+#subCategoryListedItems:hover{
+	color:red;
+}
+#totalDiv{
+	margin-bottom: 1em;
+	
+	margin-left: 20%;
+	font-size: 1.3em;
+}
+
+#wishlist{
+	background-color: rgba(236,122,87,0.6); 
+	display: none;
+	width: 100%;
+	height: 100vh;
+	float: left;
+}
